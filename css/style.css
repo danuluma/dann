@@ -9,10 +9,10 @@ body{
 
 /* Global */
 .container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+  width:1200px;
   max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 
 }
 
@@ -62,19 +62,89 @@ header li{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  
 }
 
+
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.5;
+  color: green;
+  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.name #dann{
+  color: red;
+  font-size: 72px;
+  font-weight: bold;
+  font-style: italic;
+}
+/*showcase*/
 .showcase {
+  width: 2400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   opacity: 0.7;
+  max-height: 200px;
+  justify-content: flex-start;
 }
 
 .showcase .card{
-  max-width: 400px;
+  width: 400px;
+  display: inline-block;
 }
+
+.slide {
+  animation: slide 30s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  12.5% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  37.5% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  62.5% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+
+  87.5% {
+    transform: translateX(-75%);
+  }
+
+  99% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*display fast foods*/
 
 .products{
   display: flex;
@@ -91,7 +161,7 @@ header li{
   flex-direction: row;
   background-color: red;
   justify-content: space-between;
-  
+
 }
 
 #card_1 #item{
@@ -101,14 +171,15 @@ header li{
   background-color: white;
   opacity: 0.7;
   align-items: center;
+  flex-basis: auto;
 }
 
 
-/*  */
 
 
 
 
+/*footer*/
 
 footer{
   padding:10px;
@@ -117,3 +188,6 @@ footer{
   background-color:#4f3c14;
   text-align: center;
 }
+
+
+
