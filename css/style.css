@@ -8,7 +8,7 @@ body{
 
 }
 
-/* Global */
+/* global */
 .container{
   width:1200px;
   max-width: 1200px;
@@ -31,7 +31,7 @@ ul{
   border-radius: 5px;
 }
 
-/* Header **/
+/* header **/
 header{
   background:#4f3c14;
   color:#ffffff;
@@ -83,7 +83,10 @@ header li{
   font-weight: bold;
   font-style: italic;
 }
+
+
 /*showcase*/
+
 .showcase {
   width: 2400px;
   display: flex;
@@ -186,7 +189,7 @@ footer{
 }
 
 
-/*login page and sign up*/
+/*login and signup pages */
 
 .form{
   height: auto;
@@ -240,6 +243,8 @@ footer{
   border-radius: 2px;
 }
 
+/*orders_admin*/
+
 .cust{
   display: flex;
   color: white;
@@ -287,4 +292,9 @@ footer{
 
 .cust .actions ul li{
    margin-bottom: 10px;
+}
+
+.history{
+  width: 50%;
+  max-width: 100%;
 }
