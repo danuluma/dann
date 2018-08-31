@@ -239,3 +239,52 @@ footer{
   text-transform: uppercase;
   border-radius: 2px;
 }
+
+.cust{
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #f4bc42;
+  background-color: #c96d0c;
+}
+
+.cust .order{
+  flex: 1 0 300px;
+  max-width: 100%;
+  text-align: center;
+}
+.cust .description{
+  flex: 1 0 300px;
+  max-width: 100%;
+}
+
+#item{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 5px 10px 5px 10px;
+  flex-direction: row;
+}
+
+.cust .actions{
+  flex: 1 0 300px;
+  max-width: 100%;
+
+}
+
+.cust .actions ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cust .actions ul li{
+   margin-bottom: 10px;
+}
