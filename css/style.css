@@ -4,8 +4,9 @@ body{
   line-height: 1.5
   padding:0;
   margin: 0;
-  background-color:#f4bc42;
-
+  /*  background-color:#f4bc42;*/
+  background:url('../images/pizza.png') no-repeat 0 0px;
+  background-size: 100% 100%;
 }
 
 /* global */
@@ -59,7 +60,7 @@ header li{
   min-height:400px;
   background:url('../images/myfast.jpg') no-repeat 0 0px;
   background-size: 100% 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   text-align:center;
   color:#ffffff;
   width: 100%;
@@ -95,7 +96,7 @@ header li{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  opacity: 0.9;
+  opacity: 0.95;
   max-height: 200px;
   justify-content: flex-start;
 }
@@ -240,6 +241,23 @@ footer{
   max-width: 220px;
 }
 
+.form-content li h2 {
+  padding: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+del {
+  text-decoration-style: wavy;
+  color: blue;
+  text-decoration-color: red;
+  text-decoration-line: overline underline line-through;
+}
+
 .form-content li input {
   flex: 1 0 220px;
   padding: 15px;
@@ -305,7 +323,7 @@ footer{
 }
 
 .cust .actions ul li{
-   margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 
 .history{
@@ -316,8 +334,8 @@ footer{
 /*cart*/
 
 .total{
-height: 50px;
-font-size: 30px;
+  height: 50px;
+  font-size: 30px;
 }
 
 .obtn{
