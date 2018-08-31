@@ -256,6 +256,7 @@ footer{
   border-radius: 10px;
   border-color: #f4bc42;
   background-color: #c96d0c;
+  font-size: 16px;
 }
 
 .cust .order{
@@ -297,4 +298,28 @@ footer{
 .history{
   width: 50%;
   max-width: 100%;
+}
+
+/*cart*/
+
+.total{
+height: 50px;
+font-size: 30px;
+}
+
+.obtn{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.obtn button{
+  height: auto;
+  margin: 20px 20px 20px auto;
+  padding: 8px 24px;
+  border: none;
+  background: green;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 30px;
 }
