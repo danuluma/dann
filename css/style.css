@@ -11,7 +11,7 @@ body{
 /* global */
 .container{
   width:1200px;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
 
@@ -57,7 +57,9 @@ header li{
 
 .banner{
   min-height:400px;
-  background:url('../images/myfast.jpg') no-repeat 0 -400px;
+  background:url('../images/myfast.jpg') no-repeat 0 0px;
+  background-size: 100% 100%;
+  opacity: 0.9;
   text-align:center;
   color:#ffffff;
   width: 100%;
@@ -68,6 +70,7 @@ header li{
 
 
 .name{
+  opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,7 +81,7 @@ header li{
 }
 
 .name #dann{
-  color: red;
+  color: blue;
   font-size: 72px;
   font-weight: bold;
   font-style: italic;
@@ -92,13 +95,14 @@ header li{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  opacity: 0.7;
+  opacity: 0.9;
   max-height: 200px;
   justify-content: flex-start;
 }
 
-.showcase .card{
+.showcase div img{
   width: 400px;
+  border: none;
   display: inline-block;
 }
 
@@ -151,21 +155,28 @@ header li{
 /*display fast foods*/
 
 .products{
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
   justify-content: flex-start;
 
 }
 
 #card_1{
-  max-width: 400px;
+  margin: 2px;
+  max-width: 396px;
   display: flex;
   color: green;
   flex-direction: row;
-  background-color: red;
   justify-content: space-between;
 
+}
+
+#card_1 div img{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius:  5px;
 }
 
 #card_1 #item{
@@ -173,6 +184,8 @@ header li{
   flex-direction: column;
   justify-content: space-around;
   background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius:  5px;
   opacity: 0.7;
   align-items: center;
   flex-basis: auto;
@@ -317,9 +330,9 @@ font-size: 30px;
   margin: 20px 20px 20px auto;
   padding: 8px 24px;
   border: none;
+  border-radius: 5px;
   background: green;
   color: #f2f2f2;
   text-transform: uppercase;
-  border-radius: 5px;
   font-size: 30px;
 }
