@@ -17,5 +17,5 @@ Pages that are currently live are:
 
 ```~/orders_admin``` --> This page is only accessible to site admins. They can view all the orders that have been placed by clients.They then can then accept and deliver or reject the order.
 
-```new_food``` --> Here, an admin can add a new food to the main menu for customers to view and order.
+```~/new_food``` --> Here, an admin can add a new food to the main menu for customers to view and order.
 
